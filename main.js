@@ -121,23 +121,25 @@ function innertoHTML(data) {
 
     if (data.bio === null) {
         accbio.textContent = "This profile has no bio"
-    }else if(data.bio === Text){
+    }else{
         accbio.textContent = data.bio
     }
+
     if (data.twitter_username === null) {
         twitterid.textContent = "Not Available"
-    }else if(data.twitter_username === Text){
+    }else{
         twitterid.textContent = data.twitter_username
     }
+    
     if (data.blog === "") {
         idblog.textContent = "No blog"
-    }else if(data.blog === Text){
+    }else{
         idblog.textContent = data.blog
     }
 
     if (data.location === null) {
         locationid.textContent ="No Location"
-    }else if(data.location === Text){
+    }else{
         locationid.textContent = data.location
     }
 
