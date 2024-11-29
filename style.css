@@ -125,7 +125,7 @@
 .username-data {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 200px;
 }
 .idname {
@@ -381,7 +381,7 @@
 .username-data {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 200px;
 }
 .idname {

@@ -88,7 +88,6 @@ async function getdata() {
         const data = await response.json()
         innertoHTML(data);
         console.log(data);
-        console.log(avatar_url);
     } catch (error) {
         
     }
